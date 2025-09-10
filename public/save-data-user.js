@@ -3,8 +3,11 @@ function saveUser() {
     let namaLengkap = document.querySelector('#nama-lengkap').value;
     let username = document.querySelector('#username').value;
     let email = document.querySelector('#email').value;
+    let jenisKelamin = getElementById('jenisKelamin').value;
     let password = document.querySelector('#password').value;
     let role = document.querySelector('#role').value;
+
+    console.log(jenisKelamin);
 
 
     // validasi Data

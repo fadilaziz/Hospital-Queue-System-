@@ -766,7 +766,7 @@
           <p
             class="mb-2 text-lg font-semibold text-gray-700 dark:text-gray-300"
           >
-            Form Tambah pasien baru
+            Form Tambah User Baru
           </p>
           <!-- Modal form -->
           <div
@@ -811,7 +811,8 @@
                     <input
                       type="radio"
                       class="text-purple-600 form-radio focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
-                      name="accountType"
+                      id="jenisKelamin"
+                      name="jenisKelamin"
                       value="personal"
                     />
                     <span class="ml-2">Laki-laki</span>
@@ -822,7 +823,8 @@
                     <input
                       type="radio"
                       class="text-purple-600 form-radio focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
-                      name="accountType"
+                      id="jenisKelamin"
+                      name="jeniskelamin"
                       value="busines"
                     />
                     <span class="ml-2">Perempuan</span>
