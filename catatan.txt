@@ -1,0 +1,26 @@
+fitur tambah pasien 
+- tombol tambah
+    - html
+- form di sisi 
+    - html, js
+- submit click
+    - validasi form
+    - html, js
+- fetch ajax
+    - js
+- data di tangkap di backend
+    - PHP
+    - validasi payload
+- query insert ke db
+    - php, db
+
+    1. FE : trigger input -
+    1. FE : captire & validasi data -
+    1. FE : build payload - 
+    1. FE : hit api/send data to backend 
+
+    1. BE : capture & validasi data 
+    1. BE : proses/olah 
+    1. BE : callback response
+
+    1. FE : build respons 
