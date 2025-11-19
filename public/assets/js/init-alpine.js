@@ -47,15 +47,26 @@ function data() {
     togglePagesMenu() {
       this.isPagesMenuOpen = !this.isPagesMenuOpen
     },
-    // Modal
+    // Modal Save
     isModalOpen: false,
     trapCleanup: null,
     openModal() {
       this.isModalOpen = true
       this.trapCleanup = focusTrap(document.querySelector('#modal'))
     },
-    closeModal() {
+        closeModal() {
       this.isModalOpen = false
+      this.trapCleanup()
+    },
+    //Modal Edit
+    isModalOpenEdit: false,
+    trapCleanup: null,
+    openModalEdit() {
+      this.isModalOpenEdit = true
+      this.trapCleanup = focusTrap(document.querySelector('#modal'))
+    },
+    closeModalEdit() {
+      this.isModalOpenEdit = false
       this.trapCleanup()
     },
   }

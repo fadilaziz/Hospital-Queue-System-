@@ -24,3 +24,34 @@ fitur tambah pasien
     1. BE : callback response
 
     1. FE : build respons 
+
+
+Login 
+monolith - prosedural
+monolith - modular 
+
+microservice - modular
+- FE
+- BE Pelanggan 
+- BE Finance
+
+Auth logic 
+- otentikasi 
+- otorisasi
+
+
+Flow 
+
+1. isi form register 
+    - isi form
+    - validasi form
+    - build payload
+    - hit api/send data to backend
+    - response 
+
+2. isi form login
+    - isi form
+    - validasi form
+    - build payload
+    - hit api/send data to backend
+    - response 
