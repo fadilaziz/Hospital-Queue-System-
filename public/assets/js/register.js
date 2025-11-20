@@ -53,7 +53,7 @@ function register() {
         email: email
     }
 
-    fetch(`services/register.php`,
+    fetch(`services/register_user.php`,
         {
             method: 'POST',
             headers: {
