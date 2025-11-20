@@ -2,9 +2,7 @@
 //capture payload
 $id = $_GET['id'];
 
-$enc= openssl_decrypt($id, 'AES-128-ECB', 'sitri');
-
-echo 'ID : '.$enc ."<br>"; 
+echo 'ID : '.$id ."<br>"; 
 
 //validasi payload 
 if(!isset($_GET['id']) or $_GET['id'] === '') {
@@ -25,9 +23,9 @@ if (!$conn) {
 $sql = "UPDATE `users` SET `status` = 'active' WHERE `id` = '$id';";
 $query= mysqli_query($conn, $sql);
 if ($query) {
-    echo 'status : active <br>';
+    echo 'status : <span style="color: green">active</span> <br>';
 } else {
-    echo 'status : inactive <br>';
+    echo 'status : <span style="color: red">inactive</span> <br>';
 }
 
 // $conn->close();
